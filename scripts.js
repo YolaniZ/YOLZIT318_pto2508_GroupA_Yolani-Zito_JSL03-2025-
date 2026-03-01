@@ -1,14 +1,14 @@
 const initialTasks = [
   {
     id: 1,
-    title: "Gym",
-    description: "work those muscles",
+    title: "GymWork",
+    description: "Work those muscles",
     status: "todo",
   },
   {
     id: 2,
     title: "Study",
-    description: "Work those brain",
+    description: "Work those brains",
     status: "doing",
   },
   {
@@ -26,6 +26,10 @@ function addTasks() {
 const taskTitle = prompt("Enter task title:");
 const taskDescription = prompt("Enter task description:");
 
+// Ask for the status of task and convert it to lowercase
+let taskStatus = prompt(
+  "Enter task status (todo, doing, done):"
+).toLowerCase();
 
 // Keep asking until the user enters a valid status for task
 while (
@@ -68,6 +72,3 @@ console.log("All Tasks:", initialTasks);
 
  // Log done tasks to the console
  console.log("Completed Tasks:", getDoneTasks);
-
-
-
