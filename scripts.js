@@ -43,7 +43,7 @@ while (
   ).toLowerCase();
 }
 
-// Create a new task object with a unique id
+// Add task function
 const newTask = {
   id: initialTasks.length + 1,
   title: taskTitle,
@@ -55,19 +55,19 @@ const newTask = {
 initialTasks.push(newTask);
 }
 
-//Keep adding task until user has 6 in total
+//Keep adding task until there are 6
 while (initialTasks.length < 6) {
   addTasks();
 }
 
+//Alert when board is full
 if (initialTasks.length === 6) {
   alert("There are enough tasks on your board, please check them in the console");
 }
 
-// Log all tasks to the console
+// Display the tasks in the console
 console.log("All Tasks:", initialTasks);
 
-//filter function for all done tasks
  const getDoneTasks = initialTasks.filter((task) => task.status === "done");
 
  // Log done tasks to the console
