@@ -26,10 +26,6 @@ function addTasks() {
 const taskTitle = prompt("Enter task title:");
 const taskDescription = prompt("Enter task description:");
 
-// Ask for the status of task and convert it to lowercase
-let taskStatus = prompt(
-  "Enter task status (todo, doing, done):"
-).toLowerCase();
 
 // Keep asking until the user enters a valid status for task
 while (
