@@ -91,8 +91,8 @@ Only tasks with status `"done"` are logged under:
 ## 🧠 Technologies Used
 - HTML (basic structure)
 - CSS
-- JavaScript (arrays, objects, prompts, alerts, console logging)
+- JavaScript (arrays, prompts, alerts, console logging)
 
----
+
 
 
