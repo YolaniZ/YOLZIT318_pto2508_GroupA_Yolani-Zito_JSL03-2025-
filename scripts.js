@@ -67,8 +67,5 @@ if (initialTasks.length === 6) {
 
 // Display the tasks in the console
 console.log("All Tasks:", initialTasks);
-
  const getDoneTasks = initialTasks.filter((task) => task.status === "done");
-
- // Log done tasks to the console
  console.log("Completed Tasks:", getDoneTasks);
