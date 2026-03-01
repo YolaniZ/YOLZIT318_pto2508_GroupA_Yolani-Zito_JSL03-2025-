@@ -1,25 +1,35 @@
 const initialTasks = [
   {
     id: 1,
-    title: "Launch Epic Career",
-    description: "Create a killer Resume",
+    title: "Gym",
+    description: "work those muscles",
     status: "todo",
   },
   {
     id: 2,
-    title: "Master JavaScript",
-    description: "Get comfortable with the fundamentals",
+    title: "Study",
+    description: "Work those brain",
     status: "doing",
   },
   {
-    id: 4,
-    title: "Correct JSL02",
+    id: 3,
+    title: "Sleep",
     description:
-      "Make corrections to JSL02 before attempting JSL03",
+      "Rest that body",
     status: "done",
   },
-{ 
+];
 
+//function to add tasks
+function addTasks() {
+ // Ask the user for the title and description of task 
+const taskTitle = prompt("Enter task title:");
+const taskDescription = prompt("Enter task description:");
+
+// Ask for the status of task and convert it to lowercase
+let taskStatus = prompt(
+  "Enter task status (todo, doing, done):"
+).toLowerCase();
 
 // Keep asking until the user enters a valid status for task
 while (
@@ -62,3 +72,6 @@ console.log("All Tasks:", initialTasks);
 
  // Log done tasks to the console
  console.log("Completed Tasks:", getDoneTasks);
+
+
+

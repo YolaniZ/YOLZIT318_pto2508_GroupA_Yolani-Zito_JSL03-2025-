@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project involves creating a **simple task management system** where users can add **up to three new tasks** to an existing task array. Tasks are **stored as objects in an array**, each with a **unique incremental ID**. Users will enter task details via prompts, and the system will allow filtering to view only completed tasks. The project focuses on **array manipulation, user interaction via prompts and alerts, and console logging for task management**.
+This project is a **console-based task management system** that allows a user to add **up to three (3) new tasks** to an existing task array. Tasks are stored as **objects inside an array** and each task has a **unique incremental ID**.Users enter task details using `prompt()` dialogs, and the system prints **all tasks** and **completed tasks** (status: `"done"`) to the console for review.
 
 ## Key Objectives
 
