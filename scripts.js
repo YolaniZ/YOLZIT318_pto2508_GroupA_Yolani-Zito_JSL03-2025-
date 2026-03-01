@@ -12,23 +12,14 @@ const initialTasks = [
     status: "doing",
   },
   {
-    id: 3,
-    title: "Contribute to Open Source Projects",
+    id: 4,
+    title: "Correct JSL02",
     description:
-      "Gain practical experience and collaborate with others in the software development community",
+      "Make corrections to JSL02 before attempting JSL03",
     status: "done",
   },
-];
-//function to add tasks
-function addTasks() {
- // Ask the user for the title and description of task 
-const taskTitle = prompt("Enter task title:");
-const taskDescription = prompt("Enter task description:");
+{ 
 
-// Ask for the status of task and convert it to lowercase
-let taskStatus = prompt(
-  "Enter task status (todo, doing, done):"
-).toLowerCase();
 
 // Keep asking until the user enters a valid status for task
 while (
